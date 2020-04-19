@@ -8,10 +8,10 @@ print("Could you write your name so I can know you :).")
 
 # PLAYER NAME #
 name = input("YOUR NAME: ")
-if (name != '' or ""):
+if (name != ''):   #No need to check for both "" and ''.
     print("Hello " + name + "!")
 
-elif (name == '' or ""):
+elif (name == ''):
     print("I see a man of privacy :).")   
 
 # PICK LIST #
@@ -46,3 +46,6 @@ def check_pick():
                
 # CALLING THE FUNCTION #
 check_pick()   
+
+#TODO
+#Create a mainloop so that user can keep playing over and over again until they hit "q"
