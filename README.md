@@ -1,5 +1,5 @@
 # srpsg
-A simple Python rock-paper-scissors game.
+A simple text-based Python rock-paper-scissors game.
 
 
 # How to play?
